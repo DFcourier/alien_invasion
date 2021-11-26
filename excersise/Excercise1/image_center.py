@@ -13,7 +13,7 @@ class BlueBackground:
         #得到窗口rect
         self.screen_rect = self.screen.get_rect()
         #得到图像surface和图像rect
-        self.image = pygame.image.load('1.bmp')
+        self.image = pygame.image.load('../images/1.bmp')
         self.image_rect = self.image.get_rect()
 
         self.image_rect.center = self.screen_rect.center

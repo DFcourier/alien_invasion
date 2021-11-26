@@ -11,7 +11,7 @@ class Move:
         self.screen = pygame.display.set_mode((500,500))
         self.screen_rect = self.screen.get_rect()
 
-        self.image = pygame.image.load('ship.bmp')
+        self.image = pygame.image.load('../images/ship.bmp')
         self.image_rect = self.image.get_rect()
         self.image_rect.center = self.screen_rect.center
 
